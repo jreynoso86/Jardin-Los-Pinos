@@ -1,0 +1,103 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sky3" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#87CEEB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#B0E0E6;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grass" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#90EE90;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#228B22;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Sky -->
+  <rect width="800" height="400" fill="url(#sky3)"/>
+
+  <!-- Hills in background -->
+  <ellipse cx="200" cy="350" rx="250" ry="80" fill="#6B8E23"/>
+  <ellipse cx="600" cy="340" rx="280" ry="90" fill="#556B2F"/>
+
+  <!-- Grass Fields -->
+  <rect y="380" width="800" height="220" fill="url(#grass)"/>
+
+  <!-- Fence Posts -->
+  <rect x="50" y="320" width="8" height="80" fill="#654321"/>
+  <rect x="120" y="320" width="8" height="80" fill="#654321"/>
+  <rect x="190" y="320" width="8" height="80" fill="#654321"/>
+  <rect x="260" y="320" width="8" height="80" fill="#654321"/>
+  <rect x="330" y="320" width="8" height="80" fill="#654321"/>
+  <rect x="400" y="320" width="8" height="80" fill="#654321"/>
+  <rect x="470" y="320" width="8" height="80" fill="#654321"/>
+  <rect x="540" y="320" width="8" height="80" fill="#654321"/>
+  <rect x="610" y="320" width="8" height="80" fill="#654321"/>
+  <rect x="680" y="320" width="8" height="80" fill="#654321"/>
+  <rect x="750" y="320" width="8" height="80" fill="#654321"/>
+
+  <!-- Fence Rails -->
+  <rect x="50" y="340" width="710" height="6" fill="#654321"/>
+  <rect x="50" y="370" width="710" height="6" fill="#654321"/>
+
+  <!-- Red Barn in distance -->
+  <rect x="600" y="260" width="120" height="100" fill="#8B0000"/>
+  <polygon points="600,260 660,220 720,260" fill="#A52A2A"/>
+  <!-- Barn door -->
+  <rect x="640" y="300" width="40" height="60" fill="#654321"/>
+  <!-- Barn window -->
+  <rect x="610" y="280" width="20" height="20" fill="#87CEEB"/>
+
+  <!-- Silo -->
+  <rect x="730" y="270" width="40" height="90" fill="#B0B0B0"/>
+  <ellipse cx="750" cy="270" rx="20" ry="8" fill="#C0C0C0"/>
+  <polygon points="740,250 750,240 760,250" fill="#A52A2A"/>
+
+  <!-- Wildflowers in foreground -->
+  <circle cx="100" cy="480" r="8" fill="#FF1493"/>
+  <circle cx="95" cy="475" r="6" fill="#FFB6C1"/>
+  <circle cx="105" cy="475" r="6" fill="#FF69B4"/>
+  <rect x="99" y="480" width="2" height="30" fill="#228B22"/>
+
+  <circle cx="200" cy="490" r="7" fill="#FFD700"/>
+  <circle cx="195" cy="486" r="5" fill="#FFA500"/>
+  <circle cx="205" cy="486" r="5" fill="#FFFF00"/>
+  <rect x="199" y="490" width="2" height="25" fill="#228B22"/>
+
+  <circle cx="650" cy="485" r="8" fill="#9370DB"/>
+  <circle cx="645" cy="480" r="6" fill="#BA55D3"/>
+  <circle cx="655" cy="480" r="6" fill="#8A2BE2"/>
+  <rect x="649" y="485" width="2" height="30" fill="#228B22"/>
+
+  <circle cx="500" cy="495" r="7" fill="#FF6347"/>
+  <circle cx="495" cy="491" r="5" fill="#FF4500"/>
+  <circle cx="505" cy="491" r="5" fill="#FF7F50"/>
+  <rect x="499" y="495" width="2" height="28" fill="#228B22"/>
+
+  <circle cx="300" cy="475" r="9" fill="#FFFFFF"/>
+  <circle cx="293" cy="470" r="6" fill="#F0F8FF"/>
+  <circle cx="307" cy="470" r="6" fill="#F5F5F5"/>
+  <rect x="299" y="475" width="2" height="32" fill="#228B22"/>
+
+  <circle cx="720" cy="500" r="7" fill="#FF69B4"/>
+  <rect x="719" y="500" width="2" height="25" fill="#228B22"/>
+
+  <!-- Clouds -->
+  <ellipse cx="150" cy="80" rx="40" ry="25" fill="#FFFFFF" opacity="0.8"/>
+  <ellipse cx="180" cy="85" rx="35" ry="22" fill="#FFFFFF" opacity="0.8"/>
+  <ellipse cx="125" cy="85" rx="30" ry="20" fill="#FFFFFF" opacity="0.8"/>
+
+  <ellipse cx="650" cy="100" rx="45" ry="28" fill="#FFFFFF" opacity="0.8"/>
+  <ellipse cx="685" cy="105" rx="38" ry="24" fill="#FFFFFF" opacity="0.8"/>
+  <ellipse cx="620" cy="105" rx="32" ry="21" fill="#FFFFFF" opacity="0.8"/>
+
+  <!-- Tree -->
+  <rect x="80" y="200" width="40" height="180" fill="#654321"/>
+  <ellipse cx="100" cy="180" rx="70" ry="60" fill="#228B22"/>
+  <ellipse cx="85" cy="160" rx="50" ry="45" fill="#2E8B57"/>
+  <ellipse cx="115" cy="160" rx="50" ry="45" fill="#2E8B57"/>
+
+  <!-- Sun -->
+  <circle cx="150" cy="60" r="35" fill="#FFD700" opacity="0.9"/>
+
+  <!-- Text -->
+  <text x="400" y="550" font-family="Arial, sans-serif" font-size="28" fill="#FFF" text-anchor="middle" font-weight="bold">Scenic Farm Grounds</text>
+  <text x="400" y="580" font-family="Arial, sans-serif" font-size="16" fill="#FFF" text-anchor="middle">Rolling fields and picturesque countryside views</text>
+</svg>

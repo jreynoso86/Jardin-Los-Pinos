@@ -1,0 +1,114 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sunset" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF6B35;stop-opacity:1" />
+      <stop offset="30%" style="stop-color:#F7931E;stop-opacity:1" />
+      <stop offset="60%" style="stop-color:#FDC830;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFE66D;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="sun" cx="30%" cy="40%">
+      <stop offset="0%" style="stop-color:#FFF;stop-opacity:1" />
+      <stop offset="40%" style="stop-color:#FFD700;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFA500;stop-opacity:0.8" />
+    </radialGradient>
+  </defs>
+
+  <!-- Sunset Sky -->
+  <rect width="800" height="600" fill="url(#sunset)"/>
+
+  <!-- Sun -->
+  <circle cx="200" cy="180" r="80" fill="url(#sun)"/>
+
+  <!-- Distant Hills -->
+  <ellipse cx="400" cy="380" rx="450" ry="80" fill="#8B4513" opacity="0.4"/>
+  <ellipse cx="600" cy="400" rx="350" ry="70" fill="#654321" opacity="0.5"/>
+
+  <!-- Grass Ground -->
+  <rect y="420" width="800" height="180" fill="#6B8E23"/>
+  <rect y="440" width="800" height="160" fill="#556B2F"/>
+
+  <!-- Tree Silhouettes -->
+  <!-- Left Tree -->
+  <rect x="50" y="280" width="35" height="160" fill="#2F4F2F"/>
+  <ellipse cx="67" cy="260" rx="60" ry="70" fill="#1C3820"/>
+  <ellipse cx="55" cy="240" rx="45" ry="50" fill="#1C3820"/>
+  <ellipse cx="80" cy="240" rx="45" ry="50" fill="#1C3820"/>
+
+  <!-- Right Large Tree -->
+  <rect x="680" y="200" width="50" height="240" fill="#2F4F2F"/>
+  <ellipse cx="705" cy="175" rx="90" ry="95" fill="#1C3820"/>
+  <ellipse cx="680" cy="150" rx="70" ry="75" fill="#1C3820"/>
+  <ellipse cx="730" cy="150" rx="70" ry="75" fill="#1C3820"/>
+  <ellipse cx="705" cy="130" rx="60" ry="65" fill="#1C3820"/>
+
+  <!-- Middle Tree -->
+  <rect x="350" y="310" width="30" height="130" fill="#2F4F2F"/>
+  <ellipse cx="365" cy="295" rx="50" ry="55" fill="#1C3820"/>
+  <ellipse cx="352" cy="275" rx="38" ry="42" fill="#1C3820"/>
+  <ellipse cx="378" cy="275" rx="38" ry="42" fill="#1C3820"/>
+
+  <!-- Garden Path -->
+  <path d="M 400 440 Q 420 480 440 520 Q 450 550 460 600" fill="none" stroke="#8B7355" stroke-width="60" opacity="0.6"/>
+  <path d="M 400 440 Q 420 480 440 520 Q 450 550 460 600" fill="none" stroke="#D2B48C" stroke-width="50" opacity="0.5"/>
+
+  <!-- Flowers in Foreground -->
+  <!-- Pink Flowers -->
+  <circle cx="120" cy="500" r="10" fill="#FF1493"/>
+  <circle cx="115" cy="494" r="7" fill="#FFB6C1"/>
+  <circle cx="125" cy="494" r="7" fill="#FF69B4"/>
+  <circle cx="120" cy="488" r="6" fill="#FFC0CB"/>
+  <rect x="119" y="500" width="2" height="35" fill="#228B22"/>
+
+  <circle cx="580" cy="510" r="11" fill="#FF1493"/>
+  <circle cx="574" cy="503" r="8" fill="#FFB6C1"/>
+  <circle cx="586" cy="503" r="8" fill="#FF69B4"/>
+  <circle cx="580" cy="496" r="7" fill="#FFC0CB"/>
+  <rect x="579" y="510" width="2" height="38" fill="#228B22"/>
+
+  <!-- Purple Flowers -->
+  <circle cx="250" cy="520" r="9" fill="#9370DB"/>
+  <circle cx="245" cy="515" r="6" fill="#BA55D3"/>
+  <circle cx="255" cy="515" r="6" fill="#8A2BE2"/>
+  <rect x="249" y="520" width="2" height="30" fill="#228B22"/>
+
+  <circle cx="650" cy="530" r="10" fill="#9370DB"/>
+  <circle cx="644" cy="524" r="7" fill="#BA55D3"/>
+  <circle cx="656" cy="524" r="7" fill="#8A2BE2"/>
+  <rect x="649" y="530" width="2" height="32" fill="#228B22"/>
+
+  <!-- Yellow Wildflowers -->
+  <circle cx="500" cy="515" r="8" fill="#FFD700"/>
+  <circle cx="495" cy="510" r="5" fill="#FFA500"/>
+  <circle cx="505" cy="510" r="5" fill="#FFFF00"/>
+  <rect x="499" y="515" width="2" height="28" fill="#228B22"/>
+
+  <circle cx="180" cy="535" r="7" fill="#FFD700"/>
+  <circle cx="176" cy="531" r="5" fill="#FFA500"/>
+  <circle cx="184" cy="531" r="5" fill="#FFFF00"/>
+  <rect x="179" y="535" width="2" height="25" fill="#228B22"/>
+
+  <!-- White Flowers -->
+  <circle cx="400" cy="505" r="9" fill="#FFFFFF"/>
+  <circle cx="394" cy="499" r="6" fill="#F0F8FF"/>
+  <circle cx="406" cy="499" r="6" fill="#F5F5F5"/>
+  <rect x="399" y="505" width="2" height="30" fill="#228B22"/>
+
+  <!-- Birds Flying -->
+  <path d="M 550 120 Q 555 115 560 120" fill="none" stroke="#2F4F2F" stroke-width="2"/>
+  <path d="M 560 120 Q 565 115 570 120" fill="none" stroke="#2F4F2F" stroke-width="2"/>
+
+  <path d="M 600 100 Q 605 95 610 100" fill="none" stroke="#2F4F2F" stroke-width="2"/>
+  <path d="M 610 100 Q 615 95 620 100" fill="none" stroke="#2F4F2F" stroke-width="2"/>
+
+  <path d="M 520 140 Q 525 135 530 140" fill="none" stroke="#2F4F2F" stroke-width="2"/>
+  <path d="M 530 140 Q 535 135 540 140" fill="none" stroke="#2F4F2F" stroke-width="2"/>
+
+  <!-- Clouds -->
+  <ellipse cx="650" cy="80" rx="35" ry="22" fill="#FFE4B5" opacity="0.6"/>
+  <ellipse cx="675" cy="85" rx="30" ry="19" fill="#FFE4B5" opacity="0.6"/>
+  <ellipse cx="628" cy="85" rx="25" ry="17" fill="#FFE4B5" opacity="0.6"/>
+
+  <!-- Text -->
+  <text x="400" y="50" font-family="Arial, sans-serif" font-size="30" fill="#FFF" text-anchor="middle" font-weight="bold">Golden Hour Magic</text>
+  <text x="400" y="80" font-family="Arial, sans-serif" font-size="18" fill="#FFF" text-anchor="middle">Spectacular sunset views for unforgettable moments</text>
+</svg>

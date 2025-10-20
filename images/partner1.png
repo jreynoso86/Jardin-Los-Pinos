@@ -1,0 +1,29 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6B8E23;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#556B2F;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background Circle -->
+  <circle cx="100" cy="100" r="95" fill="#F5F5F5"/>
+
+  <!-- Chef Hat Icon -->
+  <ellipse cx="100" cy="130" rx="40" ry="15" fill="url(#grad1)"/>
+  <rect x="70" y="90" width="60" height="40" fill="#FFF" stroke="url(#grad1)" stroke-width="3"/>
+  <path d="M 70 90 Q 75 70 85 75 Q 90 60 100 65 Q 110 60 115 75 Q 125 70 130 90" fill="#FFF" stroke="url(#grad1)" stroke-width="3"/>
+
+  <!-- Fork and Spoon -->
+  <line x1="65" y1="110" x2="65" y2="125" stroke="url(#grad1)" stroke-width="2"/>
+  <line x1="63" y1="108" x2="63" y2="115" stroke="url(#grad1)" stroke-width="1"/>
+  <line x1="65" y1="108" x2="65" y2="115" stroke="url(#grad1)" stroke-width="1"/>
+  <line x1="67" y1="108" x2="67" y2="115" stroke="url(#grad1)" stroke-width="1"/>
+
+  <line x1="135" y1="110" x2="135" y2="125" stroke="url(#grad1)" stroke-width="2"/>
+  <ellipse cx="135" cy="108" rx="3" ry="4" fill="url(#grad1)"/>
+
+  <!-- Text -->
+  <text x="100" y="165" font-family="Georgia, serif" font-size="16" fill="#6B8E23" text-anchor="middle" font-weight="bold">Farm Fresh</text>
+  <text x="100" y="182" font-family="Georgia, serif" font-size="14" fill="#556B2F" text-anchor="middle">Catering</text>
+</svg>

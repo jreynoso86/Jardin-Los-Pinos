@@ -1,0 +1,128 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sky5" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#87CEEB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#B0E0E6;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="wood5" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#8B4513;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#A0522D;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8B4513;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Sky Background -->
+  <rect width="800" height="500" fill="url(#sky5)"/>
+
+  <!-- Grass Ground -->
+  <rect y="450" width="800" height="150" fill="#228B22"/>
+  <rect y="470" width="800" height="130" fill="#2E8B57"/>
+
+  <!-- Pavilion Roof Support Posts -->
+  <rect x="100" y="150" width="30" height="320" fill="url(#wood5)"/>
+  <rect x="330" y="150" width="30" height="320" fill="url(#wood5)"/>
+  <rect x="560" y="150" width="30" height="320" fill="url(#wood5)"/>
+  <rect x="670" y="150" width="30" height="320" fill="url(#wood5)"/>
+
+  <!-- Pavilion Roof -->
+  <polygon points="80,150 400,80 720,150" fill="#654321"/>
+  <polygon points="80,150 400,80 720,150 750,165 400,95 50,165" fill="#8B4513"/>
+
+  <!-- Roof Details -->
+  <rect x="80" y="145" width="670" height="10" fill="#654321"/>
+  <line x1="80" y1="150" x2="750" y2="150" stroke="#A0522D" stroke-width="3"/>
+
+  <!-- Ceiling Beams -->
+  <rect x="200" y="155" width="15" height="8" fill="#654321"/>
+  <rect x="400" y="155" width="15" height="8" fill="#654321"/>
+  <rect x="600" y="155" width="15" height="8" fill="#654321"/>
+
+  <!-- Side Railings -->
+  <!-- Left railing -->
+  <rect x="100" y="380" width="260" height="8" fill="#8B4513"/>
+  <rect x="120" y="350" width="8" height="40" fill="#8B4513"/>
+  <rect x="180" y="350" width="8" height="40" fill="#8B4513"/>
+  <rect x="240" y="350" width="8" height="40" fill="#8B4513"/>
+  <rect x="300" y="350" width="8" height="40" fill="#8B4513"/>
+
+  <!-- Right railing -->
+  <rect x="560" y="380" width="140" height="8" fill="#8B4513"/>
+  <rect x="580" y="350" width="8" height="40" fill="#8B4513"/>
+  <rect x="640" y="350" width="8" height="40" fill="#8B4513"/>
+
+  <!-- Round Tables under pavilion -->
+  <!-- Table 1 -->
+  <ellipse cx="220" cy="340" rx="50" ry="25" fill="#654321"/>
+  <rect x="216" y="360" width="8" height="30" fill="#654321"/>
+
+  <!-- Table 2 -->
+  <ellipse cx="400" cy="360" rx="50" ry="25" fill="#654321"/>
+  <rect x="396" y="380" width="8" height="30" fill="#654321"/>
+
+  <!-- Table 3 -->
+  <ellipse cx="580" cy="340" rx="50" ry="25" fill="#654321"/>
+  <rect x="576" y="360" width="8" height="30" fill="#654321"/>
+
+  <!-- Chairs around tables -->
+  <rect x="180" y="325" width="20" height="22" rx="2" fill="#8B4513"/>
+  <rect x="250" y="325" width="20" height="22" rx="2" fill="#8B4513"/>
+  <rect x="205" y="355" width="20" height="22" rx="2" fill="#8B4513"/>
+
+  <rect x="360" y="345" width="20" height="22" rx="2" fill="#8B4513"/>
+  <rect x="430" y="345" width="20" height="22" rx="2" fill="#8B4513"/>
+  <rect x="385" y="375" width="20" height="22" rx="2" fill="#8B4513"/>
+
+  <rect x="540" y="325" width="20" height="22" rx="2" fill="#8B4513"/>
+  <rect x="610" y="325" width="20" height="22" rx="2" fill="#8B4513"/>
+  <rect x="565" y="355" width="20" height="22" rx="2" fill="#8B4513"/>
+
+  <!-- String Lights -->
+  <line x1="100" y1="170" x2="700" y2="170" stroke="#FFD700" stroke-width="3"/>
+  <circle cx="150" cy="170" r="6" fill="#FFFF00" opacity="0.9"/>
+  <circle cx="250" cy="170" r="6" fill="#FFFF00" opacity="0.9"/>
+  <circle cx="350" cy="170" r="6" fill="#FFFF00" opacity="0.9"/>
+  <circle cx="450" cy="170" r="6" fill="#FFFF00" opacity="0.9"/>
+  <circle cx="550" cy="170" r="6" fill="#FFFF00" opacity="0.9"/>
+  <circle cx="650" cy="170" r="6" fill="#FFFF00" opacity="0.9"/>
+
+  <line x1="100" y1="220" x2="700" y2="220" stroke="#FFD700" stroke-width="3"/>
+  <circle cx="175" cy="220" r="6" fill="#FFFF00" opacity="0.9"/>
+  <circle cx="275" cy="220" r="6" fill="#FFFF00" opacity="0.9"/>
+  <circle cx="375" cy="220" r="6" fill="#FFFF00" opacity="0.9"/>
+  <circle cx="475" cy="220" r="6" fill="#FFFF00" opacity="0.9"/>
+  <circle cx="575" cy="220" r="6" fill="#FFFF00" opacity="0.9"/>
+  <circle cx="675" cy="220" r="6" fill="#FFFF00" opacity="0.9"/>
+
+  <!-- Garden Flowers around pavilion -->
+  <circle cx="60" cy="480" r="8" fill="#FF69B4"/>
+  <circle cx="55" cy="475" r="6" fill="#FFB6C1"/>
+  <rect x="59" y="480" width="2" height="25" fill="#228B22"/>
+
+  <circle cx="750" cy="485" r="9" fill="#9370DB"/>
+  <circle cx="745" cy="479" r="6" fill="#BA55D3"/>
+  <rect x="749" y="485" width="2" height="28" fill="#228B22"/>
+
+  <circle cx="30" cy="500" r="7" fill="#FFD700"/>
+  <rect x="29" y="500" width="2" height="22" fill="#228B22"/>
+
+  <circle cx="770" cy="505" r="8" fill="#FF1493"/>
+  <rect x="769" y="505" width="2" height="24" fill="#228B22"/>
+
+  <!-- Trees in background -->
+  <rect x="20" y="250" width="25" height="120" fill="#654321"/>
+  <ellipse cx="32" cy="235" rx="40" ry="50" fill="#228B22"/>
+  <ellipse cx="25" cy="220" rx="30" ry="35" fill="#2E8B57"/>
+  <ellipse cx="40" cy="220" rx="30" ry="35" fill="#2E8B57"/>
+
+  <rect x="755" y="260" width="28" height="130" fill="#654321"/>
+  <ellipse cx="769" cy="245" rx="42" ry="52" fill="#228B22"/>
+  <ellipse cx="760" cy="228" rx="32" ry="37" fill="#2E8B57"/>
+  <ellipse cx="778" cy="228" rx="32" ry="37" fill="#2E8B57"/>
+
+  <!-- Sun -->
+  <circle cx="150" cy="90" r="35" fill="#FFD700" opacity="0.9"/>
+
+  <!-- Text -->
+  <text x="400" y="40" font-family="Arial, sans-serif" font-size="28" fill="#333" text-anchor="middle" font-weight="bold">Open-Air Pavilion</text>
+  <text x="400" y="570" font-family="Arial, sans-serif" font-size="16" fill="#FFF" text-anchor="middle">Perfect for outdoor celebrations with shade and comfort</text>
+</svg>
